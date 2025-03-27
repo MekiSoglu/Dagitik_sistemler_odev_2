@@ -1,5 +1,5 @@
 emergency_simulation dosyasında bulunan dosyada MPI ve OpenMP kullanılarak acil durum similasyonu yapılmaktadır . 
- Similasyonda bir şehirde zaman akışı içerisinde (olay_tipi ve mesafe) verilerine göre  1000 acil durum olayı geçekleşiyor . Bu olaylara müdahale edebilmesi için 100 birimlik bir ekip bulunuyor 
+ Similasyonda bir şehirde zaman akışı içerisinde (olay_tipi ve mesafe) verilerine göre (İtfaye , Ambulans , Polis ) kategorilerin de 1000 acil durum olayı geçekleşiyor . Bu olaylara müdahale edebilmesi için 100 ekip bulunuyor. 
  MPI ile bu 100 kişik ekip 4 farklı rank ile aynı aynda kordine ediliyor . Her gelen acil durum ihbarında OpenMP ile 2 farklı görev için threatlar çalışıyor 
 
 
